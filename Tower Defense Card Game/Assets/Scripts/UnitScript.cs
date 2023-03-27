@@ -28,14 +28,14 @@ public class UnitScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(PathingNodesHolder.GetChild(nextNodeNum).gameObject.GetComponent<HideObjectOnStartupScript>().nodePoint, transform.position) < 16f)
+        if (Vector3.Distance(PathingNodesHolder.GetChild(nextNodeNum).gameObject.transform.position, transform.position) < 20f)
         {
             nextNodeNum++;
             nextNode = PathingNodesHolder.GetChild(nextNodeNum).gameObject;
             Debug.Log("Next Point");
         }
 
-        navMeshAgent.SetDestination(nextNode.GetComponent<HideObjectOnStartupScript>().nodePoint);
+        navMeshAgent.SetDestination(nextNode.transform.position);
     }
 
     public void CreatePathingNode() {
