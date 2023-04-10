@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 642}
   m_MaxSize: {x: 10000, y: 10000}
@@ -123,9 +123,13 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 18042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 4220
 =======
   controlID: 91
+>>>>>>> LaptopBranch
+=======
+  controlID: 21939
 >>>>>>> LaptopBranch
 --- !u!114 &6
 MonoBehaviour:
@@ -152,9 +156,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 4199
 =======
   controlID: 118
+>>>>>>> LaptopBranch
+=======
+  controlID: 21907
 >>>>>>> LaptopBranch
 --- !u!114 &7
 MonoBehaviour:
@@ -204,8 +212,8 @@ MonoBehaviour:
     y: 480
     width: 1186
     height: 467
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -238,9 +246,13 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 18042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 4221
 =======
   controlID: 92
+>>>>>>> LaptopBranch
+=======
+  controlID: 21940
 >>>>>>> LaptopBranch
 --- !u!114 &10
 MonoBehaviour:
@@ -267,9 +279,13 @@ MonoBehaviour:
   m_MaxSize: {x: 8002, y: 8021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 4222
 =======
   controlID: 93
+>>>>>>> LaptopBranch
+=======
+  controlID: 21941
 >>>>>>> LaptopBranch
 --- !u!114 &11
 MonoBehaviour:
@@ -290,15 +306,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 283
+    width: 278
     height: 607
   m_MinSize: {x: 202, y: 321}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 4106
 =======
   controlID: 32
+>>>>>>> LaptopBranch
+=======
+  controlID: 21823
 >>>>>>> LaptopBranch
 --- !u!114 &12
 MonoBehaviour:
@@ -317,10 +337,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 283
+    width: 278
     height: 362
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -343,14 +363,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 362
-    width: 283
+    width: 278
     height: 245
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
 =======
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> LaptopBranch
+=======
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> LaptopBranch
   m_ActualView: {fileID: 24}
   m_Panes:
@@ -372,16 +397,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 283
+    x: 278
     y: 0
-    width: 451
+    width: 456
     height: 607
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
 =======
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> LaptopBranch
+=======
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> LaptopBranch
   m_ActualView: {fileID: 25}
   m_Panes:
@@ -542,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 174.5586, y: 276.18463, z: 0.9617753}
+    m_Target: {x: 119.33325, y: 206.27325, z: -154.1743}
     speed: 2
-    m_Value: {x: 174.5586, y: 276.18463, z: 0.9617753}
+    m_Value: {x: 119.33325, y: 206.27325, z: -154.1743}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -591,9 +621,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.45056248, y: 0.004018592, z: -0.0020277097, w: 0.892738}
+    m_Target: {x: 0.6497562, y: -0.06473764, z: 0.055689532, w: 0.7553356}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: 0.45056072, y: 0.0040185764, z: -0.0020277018, w: 0.89273447}
+=======
+    m_Value: {x: 0.64975387, y: -0.06473741, z: 0.055689335, w: 0.75533295}
+>>>>>>> LaptopBranch
   m_Size:
     m_Target: 31.721443
     speed: 2
@@ -729,7 +763,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -11070
+  m_LastSelectedObjectID: -1330
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -756,8 +790,25 @@ MonoBehaviour:
     height: 411
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
-    m_KeySerializationHelper: []
-    m_ValueSerializationHelper: []
+    m_KeySerializationHelper:
+    - {fileID: -5823662599343729612, guid: 5906239ca298750468a37a3dddde4655, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 9100000, guid: 5906239ca298750468a37a3dddde4655, type: 2}
   m_BreadCrumbs:
@@ -796,7 +847,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1186
     y: 73
-    width: 281
+    width: 276
     height: 341
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -808,9 +859,13 @@ MonoBehaviour:
       m_ExpandedIDs: 86eeffff8cefffff88f1ffff38f8ffff54fbffff964900004a6a0000ea6a0000
 =======
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 98550000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 34fbffff
+>>>>>>> LaptopBranch
+=======
+      m_ExpandedIDs: 7ac8ffff54fbffff18420000304a0000
 >>>>>>> LaptopBranch
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -857,7 +912,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1186
     y: 435
-    width: 281
+    width: 276
     height: 224
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &25
@@ -880,9 +935,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1469
+    x: 1464
     y: 73
-    width: 450
+    width: 455
     height: 586
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -1011,18 +1066,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jacob\Desktop\TDCG\TDCG\Tower Defense Card Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: 5c4c0000
     m_LastClickedID: 19548
@@ -1031,6 +1087,11 @@ MonoBehaviour:
     m_SelectedIDs: 3a4d0000
     m_LastClickedID: 19770
     m_ExpandedIDs: 000000002a4d000000ca9a3b
+>>>>>>> LaptopBranch
+=======
+    m_SelectedIDs: 804d0000
+    m_LastClickedID: 19840
+    m_ExpandedIDs: 00000000744d000000ca9a3b
 >>>>>>> LaptopBranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1060,9 +1121,13 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000524c000000ca9a3b
 =======
     m_ExpandedIDs: 000000002a4d0000
+>>>>>>> LaptopBranch
+=======
+    m_ExpandedIDs: 00000000744d000000ca9a3b
 >>>>>>> LaptopBranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1090,7 +1155,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000010390000d03d00009e570000925a00009c4b000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
