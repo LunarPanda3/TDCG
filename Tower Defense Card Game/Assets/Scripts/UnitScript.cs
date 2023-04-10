@@ -8,8 +8,7 @@ public class UnitScript : MonoBehaviour
     public GameObject pathNode;
     public List<GameObject> pathNodeList;
     public Transform PathingNodesHolder;
-    public Transform SplitPathHolder1;
-    public Transform SplitPathHolder2;
+    public Transform SplitPathHolder;
     GameObject nextNode;
     int nextNodeNum;
     int nextSplitPathNodeNum;
@@ -35,52 +34,51 @@ public class UnitScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(PathingNodesHolder.GetChild(nextNodeNum).gameObject.transform.position, transform.position) < 20f && atEnd == false)
-        {
-            if (PathingNodesHolder.GetChild(nextNodeNum).gameObject.name == "SplitPath1" || PathingNodesHolder.GetChild(nextNodeNum).gameObject.name == "SplitPath2")
-            {
-                onSplitPath = true;
-                pathNum = Random.Range(0,2);
-            }
-            if (onSplitPath == false) 
-            {
-                nextNodeNum++;
-                if (nextNode != null)
+        if (onSplitPath == true) {
+            if (SplitPathHolder.gameObject.transform.childCount > nextSplitPathNodeNum) {
+                if (Vector3.Distance(SplitPathHolder.GetChild(nextSplitPathNodeNum).gameObject.transform.position, transform.position) < 20f && atEnd == false)
                 {
-                    nextNode = PathingNodesHolder.GetChild(nextNodeNum).gameObject;  
-                } else 
-                {
-                    Debug.Log("At the end");
-                    atEnd = true;
-                    Destroy(this);
-                }
-            } else 
-            {
-                nextSplitPathNodeNum++;
-                if (nextNode != null)
-                {
-                    if (pathNum == 1)
-                    {
-                        nextNode = SplitPathHolder1.GetChild(nextSplitPathNodeNum).gameObject;  
-                    } else {
-                        nextNode = SplitPathHolder2.GetChild(nextSplitPathNodeNum).gameObject;  
+                    if (nextNode != null) {
+                        nextSplitPathNodeNum++;
+                        if (SplitPathHolder.gameObject.transform.childCount > nextSplitPathNodeNum) {
+                            nextNode = SplitPathHolder.GetChild(nextSplitPathNodeNum).gameObject;
+                        }
                     }
-                } else 
-                {
-                    Debug.Log("At the end");
-                    onSplitPath = false;
                 }
-               
+            } else {
+                onSplitPath = false;
+                nextSplitPathNodeNum = 0;
             }
-            //Debug.Log("Next Point");
+        } else {
+            if (PathingNodesHolder.gameObject.transform.childCount > nextNodeNum) {
+                if (Vector3.Distance(PathingNodesHolder.GetChild(nextNodeNum).gameObject.transform.position, transform.position) < 20f && atEnd == false)
+                {
+                    if (PathingNodesHolder.GetChild(nextNodeNum).gameObject.tag == "SplitPath")
+                    {
+                        onSplitPath = true;
+                        pathNum = Random.Range(0,2);
+                        if (pathNum == 1){
+                            SplitPathHolder = PathingNodesHolder.GetChild(nextNodeNum).gameObject.transform;
+                        } else {
+                            SplitPathHolder = PathingNodesHolder.GetChild(nextNodeNum + 1).gameObject.transform;
+                        }
+                        nextNodeNum++;
+                        nextNodeNum++;
+                    }
+                    if (onSplitPath == false) 
+                    {
+                        nextNodeNum++;
+                        if (nextNode != null && PathingNodesHolder.gameObject.transform.childCount > nextNodeNum)
+                        {
+                            nextNode = PathingNodesHolder.GetChild(nextNodeNum).gameObject;  
+                        }
+                    } 
+                }
+            } else {
+                atEnd = true;
+            }
+            
         }
-        /*if (Vector3.Distance(PathingNodesHolder.GetChild(nextNodeNum).gameObject.transform.position, transform.position) < 20f)
-        {
-            nextNodeNum++;
-            nextNode = PathingNodesHolder.GetChild(nextNodeNum).gameObject;
-            Debug.Log("Next Point");
-        }*/
-
         navMeshAgent.SetDestination(nextNode.transform.position);
     }
 
