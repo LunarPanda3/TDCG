@@ -40,6 +40,9 @@
      <Compile Include="Assets\Scripts\EndTurnScript.cs" />
      <Compile Include="Assets\Scripts\NavTilesScript.cs" />
      <Compile Include="Assets\Scripts\UnitScript.cs" />
+     <Compile Include="Assets\Scripts\TowerScript.cs" />
+     <Compile Include="Assets\Scripts\RangeTriggerScript.cs" />
+     <Compile Include="Assets\Scripts\GUIEditorScripts\TowerScriptEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
